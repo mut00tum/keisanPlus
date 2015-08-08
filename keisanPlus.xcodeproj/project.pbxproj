@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EBC12D791B75DC3E00E23307 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBC12D781B75DC3E00E23307 /* AppDelegate.swift */; };
+		EBC12D7B1B75DC3E00E23307 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBC12D7A1B75DC3E00E23307 /* ViewController.swift */; };
+		EBC12D7E1B75DC3E00E23307 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBC12D7C1B75DC3E00E23307 /* Main.storyboard */; };
+		EBC12D801B75DC3E00E23307 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBC12D7F1B75DC3E00E23307 /* Images.xcassets */; };
+		EBC12D831B75DC3E00E23307 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EBC12D811B75DC3E00E23307 /* LaunchScreen.xib */; };
+		EBC12D8F1B75DC3F00E23307 /* keisanPlusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBC12D8E1B75DC3F00E23307 /* keisanPlusTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EBC12D891B75DC3F00E23307 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EBC12D6B1B75DC3E00E23307 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EBC12D721B75DC3E00E23307;
+			remoteInfo = keisanPlus;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EBC12D731B75DC3E00E23307 /* keisanPlus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = keisanPlus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBC12D771B75DC3E00E23307 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBC12D781B75DC3E00E23307 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EBC12D7A1B75DC3E00E23307 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EBC12D7D1B75DC3E00E23307 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EBC12D7F1B75DC3E00E23307 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EBC12D821B75DC3E00E23307 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		EBC12D881B75DC3F00E23307 /* keisanPlusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = keisanPlusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBC12D8D1B75DC3F00E23307 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBC12D8E1B75DC3F00E23307 /* keisanPlusTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = keisanPlusTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EBC12D701B75DC3E00E23307 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBC12D851B75DC3F00E23307 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EBC12D6A1B75DC3E00E23307 = {
+			isa = PBXGroup;
+			children = (
+				EBC12D751B75DC3E00E23307 /* keisanPlus */,
+				EBC12D8B1B75DC3F00E23307 /* keisanPlusTests */,
+				EBC12D741B75DC3E00E23307 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EBC12D741B75DC3E00E23307 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EBC12D731B75DC3E00E23307 /* keisanPlus.app */,
+				EBC12D881B75DC3F00E23307 /* keisanPlusTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EBC12D751B75DC3E00E23307 /* keisanPlus */ = {
+			isa = PBXGroup;
+			children = (
+				EBC12D781B75DC3E00E23307 /* AppDelegate.swift */,
+				EBC12D7A1B75DC3E00E23307 /* ViewController.swift */,
+				EBC12D7C1B75DC3E00E23307 /* Main.storyboard */,
+				EBC12D7F1B75DC3E00E23307 /* Images.xcassets */,
+				EBC12D811B75DC3E00E23307 /* LaunchScreen.xib */,
+				EBC12D761B75DC3E00E23307 /* Supporting Files */,
+			);
+			path = keisanPlus;
+			sourceTree = "<group>";
+		};
+		EBC12D761B75DC3E00E23307 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EBC12D771B75DC3E00E23307 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EBC12D8B1B75DC3F00E23307 /* keisanPlusTests */ = {
+			isa = PBXGroup;
+			children = (
+				EBC12D8E1B75DC3F00E23307 /* keisanPlusTests.swift */,
+				EBC12D8C1B75DC3F00E23307 /* Supporting Files */,
+			);
+			path = keisanPlusTests;
+			sourceTree = "<group>";
+		};
+		EBC12D8C1B75DC3F00E23307 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EBC12D8D1B75DC3F00E23307 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EBC12D721B75DC3E00E23307 /* keisanPlus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBC12D921B75DC3F00E23307 /* Build configuration list for PBXNativeTarget "keisanPlus" */;
+			buildPhases = (
+				EBC12D6F1B75DC3E00E23307 /* Sources */,
+				EBC12D701B75DC3E00E23307 /* Frameworks */,
+				EBC12D711B75DC3E00E23307 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = keisanPlus;
+			productName = keisanPlus;
+			productReference = EBC12D731B75DC3E00E23307 /* keisanPlus.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EBC12D871B75DC3F00E23307 /* keisanPlusTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBC12D951B75DC3F00E23307 /* Build configuration list for PBXNativeTarget "keisanPlusTests" */;
+			buildPhases = (
+				EBC12D841B75DC3F00E23307 /* Sources */,
+				EBC12D851B75DC3F00E23307 /* Frameworks */,
+				EBC12D861B75DC3F00E23307 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EBC12D8A1B75DC3F00E23307 /* PBXTargetDependency */,
+			);
+			name = keisanPlusTests;
+			productName = keisanPlusTests;
+			productReference = EBC12D881B75DC3F00E23307 /* keisanPlusTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EBC12D6B1B75DC3E00E23307 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "koji muto";
+				TargetAttributes = {
+					EBC12D721B75DC3E00E23307 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					EBC12D871B75DC3F00E23307 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = EBC12D721B75DC3E00E23307;
+					};
+				};
+			};
+			buildConfigurationList = EBC12D6E1B75DC3E00E23307 /* Build configuration list for PBXProject "keisanPlus" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EBC12D6A1B75DC3E00E23307;
+			productRefGroup = EBC12D741B75DC3E00E23307 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EBC12D721B75DC3E00E23307 /* keisanPlus */,
+				EBC12D871B75DC3F00E23307 /* keisanPlusTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EBC12D711B75DC3E00E23307 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBC12D7E1B75DC3E00E23307 /* Main.storyboard in Resources */,
+				EBC12D831B75DC3E00E23307 /* LaunchScreen.xib in Resources */,
+				EBC12D801B75DC3E00E23307 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBC12D861B75DC3F00E23307 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EBC12D6F1B75DC3E00E23307 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBC12D7B1B75DC3E00E23307 /* ViewController.swift in Sources */,
+				EBC12D791B75DC3E00E23307 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBC12D841B75DC3F00E23307 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBC12D8F1B75DC3F00E23307 /* keisanPlusTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EBC12D8A1B75DC3F00E23307 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EBC12D721B75DC3E00E23307 /* keisanPlus */;
+			targetProxy = EBC12D891B75DC3F00E23307 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EBC12D7C1B75DC3E00E23307 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBC12D7D1B75DC3E00E23307 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EBC12D811B75DC3E00E23307 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBC12D821B75DC3E00E23307 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EBC12D901B75DC3F00E23307 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EBC12D911B75DC3F00E23307 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EBC12D931B75DC3F00E23307 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = keisanPlus/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EBC12D941B75DC3F00E23307 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = keisanPlus/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EBC12D961B75DC3F00E23307 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = keisanPlusTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/keisanPlus.app/keisanPlus";
+			};
+			name = Debug;
+		};
+		EBC12D971B75DC3F00E23307 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = keisanPlusTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/keisanPlus.app/keisanPlus";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EBC12D6E1B75DC3E00E23307 /* Build configuration list for PBXProject "keisanPlus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBC12D901B75DC3F00E23307 /* Debug */,
+				EBC12D911B75DC3F00E23307 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBC12D921B75DC3F00E23307 /* Build configuration list for PBXNativeTarget "keisanPlus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBC12D931B75DC3F00E23307 /* Debug */,
+				EBC12D941B75DC3F00E23307 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EBC12D951B75DC3F00E23307 /* Build configuration list for PBXNativeTarget "keisanPlusTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBC12D961B75DC3F00E23307 /* Debug */,
+				EBC12D971B75DC3F00E23307 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EBC12D6B1B75DC3E00E23307 /* Project object */;
+}
