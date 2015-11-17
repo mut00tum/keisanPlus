@@ -48,7 +48,6 @@
 		EBB6FE011BF9C30C00F3CF3C /* SetMenuBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBB6FE001BF9C30C00F3CF3C /* SetMenuBar.swift */; };
 		EBB9EFD81B815220000750BF /* UserSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBB9EFD71B815220000750BF /* UserSettingViewController.swift */; };
 		EBC12D791B75DC3E00E23307 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBC12D781B75DC3E00E23307 /* AppDelegate.swift */; };
-		EBC12D7B1B75DC3E00E23307 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBC12D7A1B75DC3E00E23307 /* ViewController.swift */; };
 		EBC12D7E1B75DC3E00E23307 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBC12D7C1B75DC3E00E23307 /* Main.storyboard */; };
 		EBC12D801B75DC3E00E23307 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBC12D7F1B75DC3E00E23307 /* Images.xcassets */; };
 		EBC12D831B75DC3E00E23307 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EBC12D811B75DC3E00E23307 /* LaunchScreen.xib */; };
@@ -114,7 +113,6 @@
 		EBB9EFD71B815220000750BF /* UserSettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserSettingViewController.swift; sourceTree = "<group>"; };
 		EBC12D771B75DC3E00E23307 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EBC12D781B75DC3E00E23307 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EBC12D7A1B75DC3E00E23307 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EBC12D7D1B75DC3E00E23307 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EBC12D7F1B75DC3E00E23307 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		EBC12D821B75DC3E00E23307 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -211,7 +209,6 @@
 			isa = PBXGroup;
 			children = (
 				EBC12D781B75DC3E00E23307 /* AppDelegate.swift */,
-				EBC12D7A1B75DC3E00E23307 /* ViewController.swift */,
 				EB2C23BC1BE231C200BF48AF /* MyCollectionViewController.swift */,
 				EBB9EFD71B815220000750BF /* UserSettingViewController.swift */,
 				EBD0E2621BE2F618004FC67B /* collections */,
@@ -408,7 +405,6 @@
 				EBB6FDE61BF9497800F3CF3C /* DesignableButton.swift in Sources */,
 				EBB6FDF81BF9497800F3CF3C /* SpringLabel.swift in Sources */,
 				EBB6FDE21BF9497800F3CF3C /* AsyncButton.swift in Sources */,
-				EBC12D7B1B75DC3E00E23307 /* ViewController.swift in Sources */,
 				EBB042821BEB1572009E0FFA /* BeerViewController.swift in Sources */,
 				EBB6FDE31BF9497800F3CF3C /* AsyncImageView.swift in Sources */,
 				EB2C23B91BE22FDC00BF48AF /* WalkingViewController.swift in Sources */,
