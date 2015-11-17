@@ -161,7 +161,7 @@ class BeerViewController: UIViewController,UITextFieldDelegate , UIPickerViewDel
         var focusField: UITextField!
         var nextField: UITextField!
         let count = textFieldList.count
-        let lastFieldTag: Int = count - 2
+        let lastFieldTag: Int = count - 1
         
         if textFieldTag == lastFieldTag {
             textFieldList[lastFieldTag].resignFirstResponder()
@@ -174,10 +174,10 @@ class BeerViewController: UIViewController,UITextFieldDelegate , UIPickerViewDel
         }
         
         switch textFieldTag {
-        case 0, 1, 2:
+        case 0:
             getField(textFieldTag)
-        case lastFieldTag:
-            textFieldList[lastFieldTag].resignFirstResponder()
+        case 1, lastFieldTag:
+            textFieldList[textFieldTag].resignFirstResponder()
             return
         default:
             break

@@ -47,9 +47,9 @@ class WalkingViewController: UIViewController,UITextFieldDelegate , UIPickerView
         if sender is UIBarButtonItem {
             switch segue.identifier {
             case .Some("SettingSegue"):
-                segue.destinationViewController as! ViewController
+                segue.destinationViewController as! UserSettingViewController
             case .Some("CollectionSegue"):
-                segue.destinationViewController as! ViewController
+                segue.destinationViewController as! MyCollectionViewController
             default:
                 break
             }
@@ -173,7 +173,7 @@ class WalkingViewController: UIViewController,UITextFieldDelegate , UIPickerView
         var focusField: UITextField!
         var nextField: UITextField!
         let count = textFieldList.count
-        let lastFieldTag: Int = count - 2
+        let lastFieldTag: Int = count - 1
         
         if textFieldTag == lastFieldTag {
             textFieldList[lastFieldTag].resignFirstResponder()
@@ -186,10 +186,10 @@ class WalkingViewController: UIViewController,UITextFieldDelegate , UIPickerView
         }
         
         switch textFieldTag {
-        case 0, 1, 2:
+        case 0:
             getField(textFieldTag)
-        case lastFieldTag:
-            textFieldList[lastFieldTag].resignFirstResponder()
+        case 1, lastFieldTag:
+            textFieldList[textFieldTag].resignFirstResponder()
             return
         default:
             break

@@ -15,10 +15,10 @@ func SetMenuBar( Target: UIViewController, View:UIView ) {
     let x      : CGFloat = 0
     let y      : CGFloat = Target.view.frame.size.height/6
     let width  : CGFloat = Target.view.frame.size.width
-    let height : CGFloat = 40.0
+    let height : CGFloat = 50.0
     
     let positionX: CGFloat = Target.view.frame.size.width/2
-    let positionY: CGFloat = Target.view.frame.size.height - 20.0
+    let positionY: CGFloat = Target.view.frame.size.height - 25.0
     
     // settingBtn Rect
     let settingBtn = UIBarButtonItem()
